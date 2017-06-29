@@ -9,11 +9,17 @@
             "type": "string"
         },
         "siteLocation": {
-            "type": "string",
-            "allowedValues": [
-                "Central US"
-            ],
-            "defaultValue": "Central US"
+          "type": "string",
+          "allowedValues": [
+            "West US",
+            "East US",
+            "East US 2",
+            "Central US",
+            "South Central US",
+            "North Central US"
+          ],
+          "defaultValue": "Central US"
+
         },
         "sku": {
             "type": "string",
